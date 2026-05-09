@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Error - DataOps Inspector</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=JetBrains+Mono:wght@400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#32343d",
+                        "error-container": "#93000a",
+                        "surface-dim": "#11131b",
+                        "on-error": "#690005",
+                        "on-tertiary": "#581e00",
+                        "tertiary-fixed": "#ffdbcd",
+                        "on-secondary-container": "#abb9d1",
+                        "background": "#11131b",
+                        "on-tertiary-fixed": "#360f00",
+                        "primary-container": "#2563eb",
+                        "inverse-surface": "#e1e2ed",
+                        "tertiary": "#ffb596",
+                        "error": "#ffb4ab",
+                        "surface": "#11131b",
+                        "surface-bright": "#373942",
+                        "surface-container": "#1d1f27",
+                        "on-tertiary-container": "#ffede6",
+                        "on-background": "#e1e2ed",
+                        "surface-container-high": "#282a32",
+                        "secondary-container": "#3c4a5e",
+                        "primary-fixed-dim": "#b4c5ff",
+                        "on-surface": "#e1e2ed",
+                        "primary-fixed": "#dbe1ff",
+                        "secondary": "#b9c7df",
+                        "on-primary-fixed-variant": "#003ea8",
+                        "on-secondary-fixed": "#0d1c2e",
+                        "surface-tint": "#b4c5ff",
+                        "surface-container-lowest": "#0c0e16",
+                        "on-primary-container": "#eeefff",
+                        "surface-container-low": "#191b23",
+                        "secondary-fixed-dim": "#b9c7df",
+                        "outline": "#8d90a0",
+                        "inverse-on-surface": "#2e3039",
+                        "tertiary-container": "#bc4800",
+                        "on-primary": "#002a78",
+                        "on-error-container": "#ffdad6",
+                        "on-primary-fixed": "#00174b",
+                        "on-secondary-fixed-variant": "#3a485b",
+                        "tertiary-fixed-dim": "#ffb596",
+                        "inverse-primary": "#0053db",
+                        "surface-variant": "#32343d",
+                        "on-tertiary-fixed-variant": "#7d2d00",
+                        "outline-variant": "#434655",
+                        "secondary-fixed": "#d5e3fc",
+                        "primary": "#b4c5ff",
+                        "on-surface-variant": "#c3c6d7",
+                        "on-secondary": "#233144"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "gutter-mobile": "12px",
+                        "target-touch": "44px",
+                        "gutter-desktop": "20px",
+                        "container-margin": "24px",
+                        "unit": "4px"
+                    },
+                    "fontFamily": {
+                        "body-sm": ["Inter"],
+                        "label-caps": ["Inter"],
+                        "mono-data": ["JetBrains Mono"],
+                        "title-sm": ["Inter"],
+                        "display-lg": ["Inter"],
+                        "headline-md": ["Inter"],
+                        "body-base": ["Inter"]
+                    },
+                    "fontSize": {
+                        "body-sm": ["13px", { "lineHeight": "18px", "fontWeight": "400" }],
+                        "label-caps": ["11px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "mono-data": ["13px", { "lineHeight": "20px", "fontWeight": "400" }],
+                        "title-sm": ["18px", { "lineHeight": "28px", "fontWeight": "600" }],
+                        "display-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "body-base": ["14px", { "lineHeight": "20px", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background min-h-screen flex items-center justify-center font-body-base">
+<!-- Main Error Container -->
+<main class="w-full max-w-3xl mx-auto px-gutter-mobile md:px-gutter-desktop py-container-margin">
+<!-- Error Card -->
+<div class="bg-surface-container-high rounded-lg flex flex-col md:flex-row overflow-hidden border border-outline-variant/30">
+<!-- Left Side: Icon & Summary -->
+<div class="p-8 md:w-1/3 flex flex-col items-start justify-center bg-error-container/10 border-b md:border-b-0 md:border-r border-outline-variant/30">
+<div class="w-16 h-16 rounded-full bg-error-container flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-on-error text-3xl" data-icon="warning" data-weight="fill" style="font-variation-settings: 'FILL' 1;">warning</span>
+</div>
+<h1 class="font-headline-md text-headline-md text-error mb-2">Storage Access Failure</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant">The system was unable to establish a secure connection to the primary data storage volume. Operations are suspended.</p>
+</div>
+<!-- Right Side: Details & Actions -->
+<div class="p-8 md:w-2/3 flex flex-col">
+<h2 class="font-title-sm text-title-sm text-on-surface mb-4 border-b border-surface-container-highest pb-2">Technical Diagnostic</h2>
+<!-- Technical Details (Monospace) -->
+<div class="bg-surface-container-lowest rounded p-4 mb-6 flex-grow border border-outline-variant/50">
+<pre class="font-mono-data text-mono-data text-on-surface-variant whitespace-pre-wrap overflow-x-auto">ERROR_CODE: ERR_STORAGE_TIMEOUT_0x9A
+TIMESTAMP: 2023-10-27T14:32:01Z
+NODE_ID: worker-node-04.us-east
+TARGET_VOLUME: vol-09a8b7c6d5e4f3
+DETAIL: Connection attempt timed out after 30000ms. I/O operation blocked.
+TRACE:
+  at StorageConnector.connect (/app/core/storage.js:142)
+  at VolumeManager.mount (/app/sys/volumes.js:88)
+  at Bootstrap.init (/app/main.js:22)
+                    </pre>
+</div>
+<!-- Actions -->
+<div class="flex flex-col sm:flex-row gap-4 mt-auto pt-4">
+<button class="h-target-touch px-6 rounded-lg bg-primary-container text-on-primary-container font-title-sm text-title-sm flex items-center justify-center gap-2 hover:bg-primary-container/90 transition-colors focus:ring-2 focus:ring-primary focus:outline-none w-full sm:w-auto">
+<span class="material-symbols-outlined" data-icon="refresh">refresh</span>
+                        Retry Connection
+                    </button>
+<button class="h-target-touch px-6 rounded-lg bg-surface-container text-on-surface font-title-sm text-title-sm border border-outline-variant flex items-center justify-center gap-2 hover:bg-surface-container-highest transition-colors focus:ring-2 focus:ring-primary focus:outline-none w-full sm:w-auto">
+<span class="material-symbols-outlined" data-icon="delete_sweep">delete_sweep</span>
+                        Reset Local Data
+                    </button>
+</div>
+<div class="mt-4 text-center sm:text-left">
+<a class="font-body-sm text-body-sm text-primary hover:text-primary-fixed transition-colors underline flex items-center justify-center sm:justify-start gap-1" href="#">
+<span class="material-symbols-outlined text-[16px]" data-icon="support_agent">support_agent</span>
+                        Contact Support
+                    </a>
+</div>
+</div>
+</div>
+</main>
+</body></html>

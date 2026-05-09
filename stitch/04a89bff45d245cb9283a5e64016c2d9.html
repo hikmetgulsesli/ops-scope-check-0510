@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>New Inspection Record</title>
+<!-- Fonts & Icons -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=JetBrains+Mono:wght@400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Configuration -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-highest": "#32343d",
+                    "error-container": "#93000a",
+                    "surface-dim": "#11131b",
+                    "on-error": "#690005",
+                    "on-tertiary": "#581e00",
+                    "tertiary-fixed": "#ffdbcd",
+                    "on-secondary-container": "#abb9d1",
+                    "background": "#11131b",
+                    "on-tertiary-fixed": "#360f00",
+                    "primary-container": "#2563eb",
+                    "inverse-surface": "#e1e2ed",
+                    "tertiary": "#ffb596",
+                    "error": "#ffb4ab",
+                    "surface": "#11131b",
+                    "surface-bright": "#373942",
+                    "surface-container": "#1d1f27",
+                    "on-tertiary-container": "#ffede6",
+                    "on-background": "#e1e2ed",
+                    "surface-container-high": "#282a32",
+                    "secondary-container": "#3c4a5e",
+                    "primary-fixed-dim": "#b4c5ff",
+                    "on-surface": "#e1e2ed",
+                    "primary-fixed": "#dbe1ff",
+                    "secondary": "#b9c7df",
+                    "on-primary-fixed-variant": "#003ea8",
+                    "on-secondary-fixed": "#0d1c2e",
+                    "surface-tint": "#b4c5ff",
+                    "surface-container-lowest": "#0c0e16",
+                    "on-primary-container": "#eeefff",
+                    "surface-container-low": "#191b23",
+                    "secondary-fixed-dim": "#b9c7df",
+                    "outline": "#8d90a0",
+                    "inverse-on-surface": "#2e3039",
+                    "tertiary-container": "#bc4800",
+                    "on-primary": "#002a78",
+                    "on-error-container": "#ffdad6",
+                    "on-primary-fixed": "#00174b",
+                    "on-secondary-fixed-variant": "#3a485b",
+                    "tertiary-fixed-dim": "#ffb596",
+                    "inverse-primary": "#0053db",
+                    "surface-variant": "#32343d",
+                    "on-tertiary-fixed-variant": "#7d2d00",
+                    "outline-variant": "#434655",
+                    "secondary-fixed": "#d5e3fc",
+                    "primary": "#b4c5ff",
+                    "on-surface-variant": "#c3c6d7",
+                    "on-secondary": "#233144"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "gutter-mobile": "12px",
+                    "target-touch": "44px",
+                    "gutter-desktop": "20px",
+                    "container-margin": "24px",
+                    "unit": "4px"
+            },
+            "fontFamily": {
+                    "body-sm": ["Inter"],
+                    "label-caps": ["Inter"],
+                    "mono-data": ["JetBrains Mono"],
+                    "title-sm": ["Inter"],
+                    "display-lg": ["Inter"],
+                    "headline-md": ["Inter"],
+                    "body-base": ["Inter"]
+            },
+            "fontSize": {
+                    "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}],
+                    "label-caps": ["11px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "mono-data": ["13px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "title-sm": ["18px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "display-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "body-base": ["14px", {"lineHeight": "20px", "fontWeight": "400"}]
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col font-body-base selection:bg-primary-container/30">
+<!-- Task-Focused Header Shell (Global Navigation Suppressed per Destination Rule) -->
+<header class="h-target-touch px-gutter-desktop flex items-center border-b border-outline-variant/30 sticky top-0 bg-surface/90 backdrop-blur-md z-40">
+<button class="flex items-center text-on-surface-variant hover:text-on-surface transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-container rounded-sm" type="button">
+<span class="material-symbols-outlined mr-2" style="font-size: 20px;">arrow_back</span>
+<span class="font-label-caps text-label-caps uppercase tracking-widest">Back to Dashboard</span>
+</button>
+</header>
+<!-- Main Canvas -->
+<main class="flex-1 w-full max-w-[800px] mx-auto py-10 px-gutter-mobile md:px-container-margin">
+<!-- Header Section -->
+<div class="mb-10">
+<h1 class="font-display-lg text-display-lg text-primary mb-2">New Inspection</h1>
+<p class="font-body-base text-body-base text-on-surface-variant">Define parameters for the upcoming environmental audit and resource check.</p>
+</div>
+<!-- Form Card Container -->
+<div class="bg-surface-container rounded-xl border border-outline-variant/50 p-6 md:p-8 shadow-sm">
+<form action="#" class="flex flex-col gap-8" method="POST">
+<!-- Field: Resource Name (Validated State) -->
+<div>
+<div class="flex justify-between items-baseline mb-2">
+<label class="font-label-caps text-label-caps text-on-surface uppercase tracking-widest" for="resource-name">
+                            Resource Name <span class="text-error ml-1">*</span>
+</label>
+<span class="font-label-caps text-label-caps text-primary uppercase">Validated</span>
+</div>
+<div class="relative">
+<input class="w-full bg-surface border-2 border-primary/50 focus:border-primary-container focus:ring-0 rounded-lg px-4 py-3 text-on-surface font-mono-data text-mono-data outline-none transition-all pr-12" id="resource-name" name="resource-name" required="" type="text" value="SRV-US-EAST-04"/>
+<span class="material-symbols-outlined absolute right-4 top-3.5 text-primary" data-weight="fill" style="font-size: 20px;">check_circle</span>
+</div>
+<p class="mt-2 font-body-sm text-body-sm text-on-surface-variant">Target resource successfully resolved in inventory matrix.</p>
+</div>
+<!-- Field: Environment (Select) -->
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface uppercase tracking-widest mb-2" for="environment">
+                        Environment
+                    </label>
+<div class="relative">
+<select class="w-full bg-surface border border-outline-variant focus:border-primary-container focus:ring-1 focus:ring-primary-container rounded-lg px-4 py-3 text-on-surface font-title-sm text-title-sm outline-none appearance-none cursor-pointer hover:border-outline transition-colors" id="environment" name="environment">
+<option value="production">Production</option>
+<option value="staging">Staging</option>
+<option value="development">Development</option>
+<option value="dr">Disaster Recovery</option>
+</select>
+<span class="material-symbols-outlined absolute right-4 top-3.5 text-on-surface-variant pointer-events-none" style="font-size: 20px;">expand_more</span>
+</div>
+</div>
+<!-- Field: Inspection Type (Radio Pills) -->
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface uppercase tracking-widest mb-3">
+                        Inspection Type
+                    </label>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<!-- Active Radio Pill -->
+<label class="relative flex flex-col items-start p-4 rounded-lg border-2 border-primary-container bg-primary-container/10 cursor-pointer transition-colors focus-within:ring-2 focus-within:ring-primary-container focus-within:ring-offset-2 focus-within:ring-offset-surface">
+<input checked="" class="sr-only" name="inspection-type" type="radio" value="security"/>
+<span class="material-symbols-outlined text-primary-container mb-2" style="font-size: 24px;">shield</span>
+<span class="font-title-sm text-title-sm text-on-surface">Security Audit</span>
+<span class="material-symbols-outlined absolute top-4 right-4 text-primary-container" data-weight="fill" style="font-size: 18px;">radio_button_checked</span>
+</label>
+<!-- Inactive Radio Pill -->
+<label class="relative flex flex-col items-start p-4 rounded-lg border border-outline-variant hover:border-outline hover:bg-surface-variant/50 cursor-pointer transition-colors focus-within:ring-2 focus-within:ring-primary-container focus-within:ring-offset-2 focus-within:ring-offset-surface">
+<input class="sr-only" name="inspection-type" type="radio" value="performance"/>
+<span class="material-symbols-outlined text-on-surface-variant mb-2" style="font-size: 24px;">speed</span>
+<span class="font-title-sm text-title-sm text-on-surface-variant">Performance</span>
+<span class="material-symbols-outlined absolute top-4 right-4 text-on-surface-variant" style="font-size: 18px;">radio_button_unchecked</span>
+</label>
+<!-- Inactive Radio Pill -->
+<label class="relative flex flex-col items-start p-4 rounded-lg border border-outline-variant hover:border-outline hover:bg-surface-variant/50 cursor-pointer transition-colors focus-within:ring-2 focus-within:ring-primary-container focus-within:ring-offset-2 focus-within:ring-offset-surface">
+<input class="sr-only" name="inspection-type" type="radio" value="compliance"/>
+<span class="material-symbols-outlined text-on-surface-variant mb-2" style="font-size: 24px;">policy</span>
+<span class="font-title-sm text-title-sm text-on-surface-variant">Compliance</span>
+<span class="material-symbols-outlined absolute top-4 right-4 text-on-surface-variant" style="font-size: 18px;">radio_button_unchecked</span>
+</label>
+</div>
+</div>
+<!-- Field: Notes (Textarea) -->
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface uppercase tracking-widest mb-2" for="notes">
+                        Operational Notes
+                    </label>
+<textarea class="w-full bg-surface border border-outline-variant focus:border-primary-container focus:ring-1 focus:ring-primary-container rounded-lg px-4 py-3 text-on-surface font-body-base text-body-base outline-none transition-all resize-y hover:border-outline" id="notes" name="notes" placeholder="Detail specific focal points, known anomalies, or temporary overrides required for this inspection run..." rows="4"></textarea>
+</div>
+<!-- Form Actions (Footer) -->
+<div class="mt-4 pt-6 border-t border-outline-variant/30 flex flex-col-reverse md:flex-row items-center justify-end gap-4">
+<button class="w-full md:w-auto px-6 h-target-touch rounded-lg font-title-sm text-title-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-variant transition-colors border border-transparent focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-container" type="button">
+                        Cancel
+                    </button>
+<button class="w-full md:w-auto px-8 h-target-touch rounded-lg bg-primary-container text-on-primary-container font-title-sm text-title-sm hover:opacity-90 transition-opacity flex items-center justify-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-container focus-visible:ring-offset-2 focus-visible:ring-offset-surface-container" type="submit">
+<span class="material-symbols-outlined" style="font-size: 20px;">save</span>
+                        Save Record
+                    </button>
+</div>
+</form>
+</div>
+</main>
+</body></html>
