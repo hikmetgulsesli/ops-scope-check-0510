@@ -1,0 +1,973 @@
+[
+  {
+    "screenId": "450cb74a9a764aa3b9f55854b8ad87c1",
+    "screenTitle": "User Profile",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "Close Profile",
+        "line": 115
+      },
+      {
+        "type": "button",
+        "label": "Details",
+        "line": 138
+      },
+      {
+        "type": "button",
+        "label": "Sign Out Session",
+        "line": 186
+      },
+      {
+        "type": "button",
+        "label": "Save Changes",
+        "line": 190
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 155
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 166
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 177
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Close Profile",
+        "line": 115
+      },
+      {
+        "type": "button",
+        "label": "Details",
+        "line": 138
+      },
+      {
+        "type": "button",
+        "label": "Sign Out Session",
+        "line": 186
+      },
+      {
+        "type": "button",
+        "label": "Save Changes",
+        "line": 190
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 155
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 166
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 177
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 7,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "2a49c00f6e08419897f912070ad7cf1b",
+    "screenTitle": "System Error",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Contact Support",
+        "href": "#",
+        "line": 142
+      },
+      {
+        "type": "button",
+        "label": "Retry Connection",
+        "line": 132
+      },
+      {
+        "type": "button",
+        "label": "Reset Local Data",
+        "line": 136
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Contact Support",
+        "href": "#",
+        "line": 142
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Retry Connection",
+        "line": 132
+      },
+      {
+        "type": "button",
+        "label": "Reset Local Data",
+        "line": 136
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 3,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "ac76ecacfd054e8b86ed64f6b8d23a7b",
+    "screenTitle": "Record Details",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "dashboard",
+        "href": "#",
+        "line": 195
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 199
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 203
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 209
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 221
+      },
+      {
+        "type": "link",
+        "label": "Inspections",
+        "href": "#",
+        "line": 223
+      },
+      {
+        "type": "button",
+        "label": "New Inspection",
+        "line": 189
+      },
+      {
+        "type": "button",
+        "label": "archive",
+        "line": 236
+      },
+      {
+        "type": "button",
+        "label": "Rerun Inspection",
+        "line": 240
+      },
+      {
+        "type": "button",
+        "label": "Export Log",
+        "line": 292
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "dashboard",
+        "href": "#",
+        "line": 195
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 199
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 203
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 209
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 221
+      },
+      {
+        "type": "link",
+        "label": "Inspections",
+        "href": "#",
+        "line": 223
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "New Inspection",
+        "line": 189
+      },
+      {
+        "type": "button",
+        "label": "archive",
+        "line": 236
+      },
+      {
+        "type": "button",
+        "label": "Rerun Inspection",
+        "line": 240
+      },
+      {
+        "type": "button",
+        "label": "Export Log",
+        "line": 292
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 10,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "04a89bff45d245cb9283a5e64016c2d9",
+    "screenTitle": "Create/Edit Record",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "Back to Dashboard",
+        "line": 109
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "line": 191
+      },
+      {
+        "type": "button",
+        "label": "Record",
+        "line": 194
+      },
+      {
+        "type": "input",
+        "label": "text",
+        "inputType": "text",
+        "line": 133
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 144
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 161
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 168
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 175
+      },
+      {
+        "type": "input",
+        "label": "Detail specific focal points, known anomalies, or temporary overrides required for this inspection run...",
+        "inputType": "textarea",
+        "placeholder": "Detail specific focal points, known anomalies, or temporary overrides required for this inspection run...",
+        "line": 187
+      },
+      {
+        "type": "form",
+        "label": "form",
+        "line": 123
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Back to Dashboard",
+        "line": 109
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "line": 191
+      },
+      {
+        "type": "button",
+        "label": "Record",
+        "line": 194
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "text",
+        "inputType": "text",
+        "line": 133
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 144
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 161
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 168
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 175
+      },
+      {
+        "type": "input",
+        "label": "Detail specific focal points, known anomalies, or temporary overrides required for this inspection run...",
+        "inputType": "textarea",
+        "placeholder": "Detail specific focal points, known anomalies, or temporary overrides required for this inspection run...",
+        "line": 187
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 10,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "5281149f9c454f6f874aafcb7b0d699f",
+    "screenTitle": "Dashboard - DataOps Inspector",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "dashboard",
+        "href": "#",
+        "line": 139
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 144
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 148
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 155
+      },
+      {
+        "type": "button",
+        "label": "New Inspection",
+        "line": 131
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 171
+      },
+      {
+        "type": "button",
+        "label": "help",
+        "line": 174
+      },
+      {
+        "type": "button",
+        "label": "account_circle",
+        "line": 177
+      },
+      {
+        "type": "button",
+        "label": "Last 24 Hours",
+        "line": 191
+      },
+      {
+        "type": "button",
+        "label": "Export",
+        "line": 195
+      },
+      {
+        "type": "button",
+        "label": "Filter",
+        "line": 268
+      },
+      {
+        "type": "input",
+        "label": "Search by ID or Pipeline...",
+        "inputType": "text",
+        "placeholder": "Search by ID or Pipeline...",
+        "line": 265
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "dashboard",
+        "href": "#",
+        "line": 139
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 144
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 148
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 155
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "New Inspection",
+        "line": 131
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 171
+      },
+      {
+        "type": "button",
+        "label": "help",
+        "line": 174
+      },
+      {
+        "type": "button",
+        "label": "account_circle",
+        "line": 177
+      },
+      {
+        "type": "button",
+        "label": "Last 24 Hours",
+        "line": 191
+      },
+      {
+        "type": "button",
+        "label": "Export",
+        "line": 195
+      },
+      {
+        "type": "button",
+        "label": "Filter",
+        "line": 268
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "Search by ID or Pipeline...",
+        "inputType": "text",
+        "placeholder": "Search by ID or Pipeline...",
+        "line": 265
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 12,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "a6d3db8abfa24f7896851a98a840d5f1",
+    "screenTitle": "System Settings",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "dashboard",
+        "href": "#",
+        "line": 161
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 166
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 171
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 178
+      },
+      {
+        "type": "button",
+        "label": "New Inspection",
+        "line": 153
+      },
+      {
+        "type": "button",
+        "label": "menu",
+        "line": 190
+      },
+      {
+        "type": "button",
+        "label": "Notifications",
+        "line": 197
+      },
+      {
+        "type": "button",
+        "label": "Help",
+        "line": 201
+      },
+      {
+        "type": "button",
+        "label": "Profile",
+        "line": 204
+      },
+      {
+        "type": "button",
+        "label": "Clear Cache",
+        "line": 310
+      },
+      {
+        "type": "button",
+        "label": "Reset State",
+        "line": 323
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 233
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 244
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 255
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "dashboard",
+        "href": "#",
+        "line": 161
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 166
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 171
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 178
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "New Inspection",
+        "line": 153
+      },
+      {
+        "type": "button",
+        "label": "menu",
+        "line": 190
+      },
+      {
+        "type": "button",
+        "label": "Notifications",
+        "line": 197
+      },
+      {
+        "type": "button",
+        "label": "Help",
+        "line": 201
+      },
+      {
+        "type": "button",
+        "label": "Profile",
+        "line": 204
+      },
+      {
+        "type": "button",
+        "label": "Clear Cache",
+        "line": 310
+      },
+      {
+        "type": "button",
+        "label": "Reset State",
+        "line": 323
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 233
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 244
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 255
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 14,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "e380357f1e1a4edc9636fda43a115e61",
+    "screenTitle": "Getting Started",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "dashboard",
+        "href": "#",
+        "line": 186
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 192
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 198
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 205
+      },
+      {
+        "type": "button",
+        "label": "New Inspection",
+        "line": 179
+      },
+      {
+        "type": "button",
+        "label": "menu",
+        "line": 217
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 227
+      },
+      {
+        "type": "button",
+        "label": "help",
+        "line": 230
+      },
+      {
+        "type": "button",
+        "label": "account_circle",
+        "line": 233
+      },
+      {
+        "type": "button",
+        "label": "Start First Inspection",
+        "line": 248
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "dashboard",
+        "href": "#",
+        "line": 186
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 192
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 198
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 205
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "New Inspection",
+        "line": 179
+      },
+      {
+        "type": "button",
+        "label": "menu",
+        "line": 217
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 227
+      },
+      {
+        "type": "button",
+        "label": "help",
+        "line": 230
+      },
+      {
+        "type": "button",
+        "label": "account_circle",
+        "line": 233
+      },
+      {
+        "type": "button",
+        "label": "Start First Inspection",
+        "line": 248
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 10,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "eff670d611ce4997913016a8e6da3627",
+    "screenTitle": "Operational Insights",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "dashboard",
+        "href": "#",
+        "line": 133
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 137
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 141
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 147
+      },
+      {
+        "type": "button",
+        "label": "New Inspection",
+        "line": 128
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 166
+      },
+      {
+        "type": "button",
+        "label": "help",
+        "line": 169
+      },
+      {
+        "type": "button",
+        "label": "7D",
+        "line": 268
+      },
+      {
+        "type": "button",
+        "label": "30D",
+        "line": 269
+      },
+      {
+        "type": "button",
+        "label": "90D",
+        "line": 270
+      },
+      {
+        "type": "button",
+        "label": "VIEW ALL LOGS",
+        "line": 356
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "dashboard",
+        "href": "#",
+        "line": 133
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 137
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 141
+      },
+      {
+        "type": "link",
+        "label": "Support",
+        "href": "#",
+        "line": 147
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "New Inspection",
+        "line": 128
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 166
+      },
+      {
+        "type": "button",
+        "label": "help",
+        "line": 169
+      },
+      {
+        "type": "button",
+        "label": "7D",
+        "line": 268
+      },
+      {
+        "type": "button",
+        "label": "30D",
+        "line": 269
+      },
+      {
+        "type": "button",
+        "label": "90D",
+        "line": 270
+      },
+      {
+        "type": "button",
+        "label": "VIEW ALL LOGS",
+        "line": 356
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 11,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]
