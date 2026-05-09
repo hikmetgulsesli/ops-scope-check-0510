@@ -1,0 +1,74 @@
+[
+  {
+    "screenId": "450cb74a9a764aa3b9f55854b8ad87c1",
+    "title": "User Profile",
+    "componentName": "UserProfile",
+    "file": "src/screens/UserProfile.tsx",
+    "buttons": 4,
+    "inputs": 3,
+    "links": 0
+  },
+  {
+    "screenId": "2a49c00f6e08419897f912070ad7cf1b",
+    "title": "System Error",
+    "componentName": "SystemError",
+    "file": "src/screens/SystemError.tsx",
+    "buttons": 2,
+    "inputs": 0,
+    "links": 1
+  },
+  {
+    "screenId": "ac76ecacfd054e8b86ed64f6b8d23a7b",
+    "title": "Record Details",
+    "componentName": "RecordDetails",
+    "file": "src/screens/RecordDetails.tsx",
+    "buttons": 4,
+    "inputs": 0,
+    "links": 6
+  },
+  {
+    "screenId": "04a89bff45d245cb9283a5e64016c2d9",
+    "title": "Create/Edit Record",
+    "componentName": "CreateeditRecord",
+    "file": "src/screens/CreateeditRecord.tsx",
+    "buttons": 3,
+    "inputs": 4,
+    "links": 0
+  },
+  {
+    "screenId": "5281149f9c454f6f874aafcb7b0d699f",
+    "title": "Dashboard - DataOps Inspector",
+    "componentName": "DashboardDataopsInspector",
+    "file": "src/screens/DashboardDataopsInspector.tsx",
+    "buttons": 7,
+    "inputs": 1,
+    "links": 4
+  },
+  {
+    "screenId": "a6d3db8abfa24f7896851a98a840d5f1",
+    "title": "System Settings",
+    "componentName": "SystemSettings",
+    "file": "src/screens/SystemSettings.tsx",
+    "buttons": 7,
+    "inputs": 3,
+    "links": 4
+  },
+  {
+    "screenId": "e380357f1e1a4edc9636fda43a115e61",
+    "title": "Getting Started",
+    "componentName": "GettingStarted",
+    "file": "src/screens/GettingStarted.tsx",
+    "buttons": 6,
+    "inputs": 0,
+    "links": 4
+  },
+  {
+    "screenId": "eff670d611ce4997913016a8e6da3627",
+    "title": "Operational Insights",
+    "componentName": "OperationalInsights",
+    "file": "src/screens/OperationalInsights.tsx",
+    "buttons": 8,
+    "inputs": 0,
+    "links": 4
+  }
+]
